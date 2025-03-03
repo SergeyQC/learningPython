@@ -12,11 +12,12 @@ n = 'верх'
 for x in range(a * 2):
     if new_a == a ** 2:
         break
-    elif new_a == a ** 2 and new_a % 2 != 0:
+    elif new_a == a ** 2 - 1 and b[a//2][a//2] == 0:
         for i in range(c, c+1):
             for j in range(c, a-d):
                 new_a += 1
                 b[i][j] = new_a
+                break
     elif n == 'верх':
         for i in range(c, c+1):
             for j in range(c, a-1-d):
