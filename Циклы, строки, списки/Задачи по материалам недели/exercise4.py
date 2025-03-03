@@ -8,10 +8,41 @@
 
 В случае одной строки/столбца элемент сам себе является соседом по соответствующему направлению.
 '''
+matrix = []
 
-b = []
+# Считываем матрицу из ввода
+while True:
+    row = input()
+    if row == "end":
+        break
+    matrix.append([int(x) for x in row.split()])
+
+rows, cols = len(matrix), len(matrix[0])
+new_matrix = [[0] * cols for _ in range(rows)]
+
+# Заполняем новую матрицу, учитывая замыкание по краям
+for i in range(rows):
+    for j in range(cols):
+        top = matrix[i - 1][j]  # Элемент сверху (с замыканием)
+        bottom = matrix[(i + 1) % rows][j]  # Элемент снизу (с замыканием)
+        left = matrix[i][j - 1]  # Элемент слева (с замыканием)
+        right = matrix[i][(j + 1) % cols]  # Элемент справа (с замыканием)
+
+        new_matrix[i][j] = top + bottom + left + right
+        print(new_matrix[i][j], end=' ')
+    print()
+
+# ======================================================
+
+c = []
 while True:
     a = [i for i in input().split()]
-    b.append(a)
     if a == ['end']:
-        print(b)
+        break
+    c.append(a)
+n, m = len(c), len(c[0])
+for i in range(n):
+    for j in range(m):
+        x = int(c[i][j-1]) + int(c[i][j+1-m]) + int(c[i-1][j]) + int(c[i+1-n][j])
+        print(x, end=' ')
+    print()
