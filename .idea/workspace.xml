@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55de6799-6eb3-47f4-83ea-86a52049e76f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/Lesson2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/exercise1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/lesson1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/lesson3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/exercise3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Функции/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Функции/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/exercise2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
