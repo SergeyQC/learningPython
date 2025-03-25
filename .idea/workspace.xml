@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55de6799-6eb3-47f4-83ea-86a52049e76f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/exercise3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Файловый ввод, вывод/exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Файловый ввод, вывод/lesson1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Функции, словари, интерпретатор, файлы, модули/Словари/exercise2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,33 +36,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Lesson#1.executor": "Run",
-    "Python.Lesson#2.executor": "Run",
-    "Python.Lesson2.executor": "Run",
-    "Python.exercise#1.executor": "Run",
-    "Python.exercise#2.executor": "Run",
-    "Python.exercise#3.executor": "Run",
-    "Python.exercise1.executor": "Run",
-    "Python.exercise2.executor": "Run",
-    "Python.exercise3.executor": "Run",
-    "Python.exercise4.executor": "Run",
-    "Python.exercise5.executor": "Run",
-    "Python.lesson1.executor": "Run",
-    "Python.lesson2.executor": "Run",
-    "Python.lesson3.executor": "Run",
-    "Python.Задачи по материалам недели.executor": "Run",
-    "Python.Логические операции.executor": "Run",
-    "Python.Операции с целыми числами.executor": "Run",
-    "Python.Переменные, стандартный ввод(вывод).executor": "Run",
-    "Python.Строки.executor": "Run",
-    "Python.Типы данных.executor": "Run",
-    "Python.Условия if, else, elif, блоки, отступы.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Lesson#1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson#2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise#1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise#2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise#3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задачи по материалам недели.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Логические операции.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Операции с целыми числами.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Переменные, стандартный ввод(вывод).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Строки.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Типы данных.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Условия if, else, elif, блоки, отступы.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
