@@ -8,11 +8,28 @@
 '''
 
 a = 'a3b4c2e10b1'
-s = 1
-a = a + '0'
-for j in range(0, len(a)-1):
-    if a[j] == a[j+1]:
-     s += 1
-    else:
-     print((a[j] + str(s)), end='')
-     s = 1
+# s = 1
+# a = a + '0'
+# for j in range(0, len(a)-1):
+#     if a[j] == a[j+1]:
+#      s += 1
+#     else:
+#      print((a[j] + str(s)), end='')
+#      s = 1
+
+b = [x for x in a]
+c = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+d = []
+x = 0
+y = 1
+z = 1
+w = 0
+
+for x in range(len(b)):
+    if b[x] not in c:
+        if b[x+z] in c:
+            for
+            y = int(b[x+z])
+        d.append(b[x]*y)
+
+print(d)
