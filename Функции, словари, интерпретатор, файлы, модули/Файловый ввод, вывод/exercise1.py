@@ -20,16 +20,22 @@ a = 'a3b4c2e10b1'
 b = [x for x in a]
 c = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 d = []
-x = 0
-y = 1
+y = ''
 z = 1
-w = 0
-
-for x in range(len(b)):
+for x in range(0, len(b)):
     if b[x] not in c:
-        if b[x+z] in c:
-            for
-            y = int(b[x+z])
-        d.append(b[x]*y)
+        z = b[x]
+    else:
+        y += b[x]
+        if b[x+1] not in c:
+            d.append(z*int(y))
+            y = ''
 
 print(d)
+
+# for x in range(-1, len(b)):
+#     if b[x] not in c:
+#         if b[x+z] in c:
+#             y = int(b[x+z])
+#         d.append(b[x]*y)
+#a
