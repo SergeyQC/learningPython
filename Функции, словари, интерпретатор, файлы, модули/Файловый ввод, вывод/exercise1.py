@@ -7,35 +7,30 @@
 Запишите полученный текст в файл и прикрепите его, как ответ на это задание.
 '''
 
-a = 'a3b4c2e10b1'
-# s = 1
-# a = a + '0'
-# for j in range(0, len(a)-1):
-#     if a[j] == a[j+1]:
-#      s += 1
-#     else:
-#      print((a[j] + str(s)), end='')
-#      s = 1
+# чтение из файла
+with open('dataset_3363_2.txt') as inf:
+    for line in inf:
+        line = line.strip()
+# заполнение списка "а" и создание переменных
+a = line
+b = '0123456789'
+c = ''
+count = ''
+result = []
 
-b = [x for x in a]
-c = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-d = []
-y = ''
-z = 1
-for x in range(0, len(b)):
-    if b[x] not in c:
-        z = b[x]
+# распаковска строк
+for x in a:
+    if x not in b:
+        if c and count:
+            result.append(c * int(count))
+        c = x
+        count = ''
     else:
-        y += b[x]
-        if b[x+1] not in c:
-            d.append(z*int(y))
-            y = ''
+        count += x
+if c and count:
+        result.append(c * int(count))
 
-print(d)
-
-# for x in range(-1, len(b)):
-#     if b[x] not in c:
-#         if b[x+z] in c:
-#             y = int(b[x+z])
-#         d.append(b[x]*y)
-#a
+# запись результата в файл (перезапись)
+with open('dataset_3363_2.txt', 'w') as ouf:
+    for x in result:
+        ouf.write(x)
