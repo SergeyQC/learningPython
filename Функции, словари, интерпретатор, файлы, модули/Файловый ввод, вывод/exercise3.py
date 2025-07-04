@@ -19,6 +19,7 @@
 print('First;Second-1 Second-2;Third'.split(';'))
 # ['First', 'Second-1 Second-2', 'Third']
 '''
+
 from itertools import count
 
 wholeList = ''
@@ -28,13 +29,20 @@ with open('dataset_3363_5.txt') as inf:
 
 wholeList = wholeList.strip().split('\n')
 wholeList = [line.split(';') for line in wholeList]
-print(wholeList)
 
 average = []
-for x in range(len(wholeList)):
-    for y in range(len(wholeList)):
-        if x != 0:
-            average += x
+numb = 0
+counter = 0
+for row in range(len(wholeList)):
+    for column in range(1, len(wholeList) + 1):
+        numb += int(wholeList[row][column])
+        counter += 1
+        if counter == 3:
+            average += [int(numb/3)]
+            counter = 0
+        elif column or row > len(wholeList)+1:
+            continue
 
 print(average)
+
 
